@@ -1,0 +1,32 @@
+//-шаблон header
+mixin header
+  header.header
+    .container
+      ul.header__list
+        li.header__item
+          .header__item-right
+            .header__logo.up
+              img.header__img(src="img/block/header/logo.png" alt="logo")
+            .header__tagline.down Ваш заказ уже сегодня 
+            
+        li.header__item
+          .header__item-left.up
+          .header__item-right
+            .header__text.header__text--bold +7 (495) 241-96-37
+            .header__text Пн-Сб 10:00—19:00   Вс — выходной
+            a.header__text.header__text--link.down 7292554@mail.ru
+          
+        li.header__item
+          .header__item-left.up
+          .header__item-right
+            .header__text Москва, м. Дубровка
+            .header__text ул. Шарикоподшипниковская, д. 13
+            a.header__text.header__text--link.down Как нас найти
+            
+        li.header__item
+          .header__item-right
+            a.header__order.up срочный заказ
+            a.header__text.header__text--link.down Задать вопрос
+        
+      
+              

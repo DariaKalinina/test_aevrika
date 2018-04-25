@@ -1,0 +1,28 @@
+.about {
+  height: 35px;
+  padding-top: 10px;
+  border-bottom: 1px solid $grey;
+}
+
+.about__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__list{
+  display: flex;
+}
+
+.about__item{
+  margin-right: 58px;
+}
+
+.about__link,
+.about_add{
+  display: block;
+  font-family: 'SegoeUI' Arial sans-serif;
+  font-size: 11px;
+  color: $blueDark;
+  text-transform: uppercase;
+  text-decoration: none;
+}

@@ -1,9 +1,15 @@
 //переменные: цвета
 $white: #fff;
+$grey: #e2e2ed;
+$blueDark: #2e2771;
+$purple: #e50a62;
+$black: #262626;
+$blueMenu: #393185;
 
 //mixin
 @import 'mixins/mixin.scss';
 
 //block
-@import 'block/adjustment.scss';
-@import 'block/first.scss';
+@import 'all/adjustment.scss';
+@import '../block/header/header.scss';
+@import '../block/about/about.scss';
