@@ -9,7 +9,17 @@
   justify-content: space-between;
 }
 
+.header__item-up{
+  margin-bottom: 15px
+}
+
 .header__logo{
+}
+
+.header__tagline{
+  font-family: 'SegoeUIBlack' Arial sans-serif;
+  font-weight: 800;
+  color: $blueMenu;
 }
 
 .header__text{
@@ -18,10 +28,30 @@
   color: $black;
     &--link{
       color: $blueDark;
+      text-decoration: none;
+      border-bottom: 1px solid $blueLine;
     }
     &--bold{
       font-family: 'SegoeUIBlack' Arial sans-serif;
       font-weight: bold;
     }
+}
 
+.header__order{
+  display: block;
+  font-family: 'SegoeUI' Arial sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $purple;
+  color: $white;
+  width: 207px;
+  height: 40px;
+  padding-top: 15px;
+    &:hover{
+      border: 1px solid $purple;
+      background-color: $white;
+      color: $purple;
+    }
 }

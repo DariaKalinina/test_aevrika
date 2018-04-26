@@ -5,6 +5,9 @@ $blueDark: #2e2771;
 $purple: #e50a62;
 $black: #262626;
 $blueMenu: #393185;
+$blueMenuDark: #29243a;
+$blueMenuBorder: #473d94;
+$blueLine: #a8a5c9;
 
 //mixin
 @import 'mixins/mixin.scss';
@@ -13,3 +16,5 @@ $blueMenu: #393185;
 @import 'all/adjustment.scss';
 @import '../block/header/header.scss';
 @import '../block/about/about.scss';
+@import '../block/menu/menu.scss';
+@import '../block/content/content.scss';

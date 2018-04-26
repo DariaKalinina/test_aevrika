@@ -1,0 +1,129 @@
+.content{
+  width: 100%;
+  height: calc(100% - 237px);
+  background-image: linear-gradient(to top, rgba($blueMenuDark, 0.9), rgba($blueMenu, 0.9));
+  background-size: cover;
+  position: relative;
+    &:before{
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: url('../img/block/content/bg.png') center center no-repeat;
+      background-size: cover;
+    }
+}
+
+.content__block{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content__caption-text{
+  font-family: 'FuturaFuturisCondBoldC' Arial sans-serif;
+  font-size: 108px;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.content__list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.slide__item{
+  background-color: $blueMenu;
+  width: 187px;
+  height: 52px;
+  padding-top: 15px;
+  padding-left: 30px;
+  border-bottom: 1px solid $blueMenuBorder;
+    &:first-child{
+      background-color: $purple;
+    }
+}
+
+.slide__link{
+  display: block;
+  font-family: 'SegoeUI' Arial sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  color: $white;
+  text-decoration: none;
+}
+
+.content__item-text{
+  font-family: 'SegoeUIBlack' Arial sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: $white;
+}
+
+.content__item-text,
+.order{
+  width: 295px;
+}
+
+.kind__item{
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 25px;
+  &:after {
+  	content: "";
+  	display: block;
+    background-color: $white;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    width: 7px;
+    height: 3px;
+    transform: rotate(45deg);
+  }
+  &:before{
+    content: "";
+  	display: block;
+    position: absolute;
+    left: 3px;
+    top: 12px;
+    width: 12px;
+    height: 3px;
+    transform: rotate(-45deg);
+    background-color: $white;
+  }
+}
+
+.kind__link{
+  display: block;
+  font-family: 'SegoeUI' Arial sans-serif;
+  font-size: 24px;
+  color: $white;
+  text-decoration: none;
+}
+
+.order__phone{
+  font-family: 'SegoeUIBlack' Arial sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: $white;
+  margin-bottom: 25px;
+}
+
+.order__link{
+  display: block;
+  font-family: 'SegoeUI' Arial sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $purple;
+  color: $white;
+  width: 100%;
+  height: 40px;
+  padding-top: 15px;
+}

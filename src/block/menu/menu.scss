@@ -1,0 +1,43 @@
+.menu{
+  width: 100%;
+  height: 75px;
+  background-color: $blueMenu;
+  padding-top: 19px;
+}
+
+.menu__list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu__link{
+  position: relative;
+  color: $white;
+  font-family: 'FuturaFuturisCondBoldC' Arial sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+    &:after {
+      content: "";
+      display: block;
+      background-color: $white;
+      position: absolute;
+      right: -24px;
+      top: 12px;
+      width: 6px;
+      height: 2px;
+      transform: rotate(45deg);
+    }
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      right: -27px;
+      top: 12px;
+      width: 6px;
+      height: 2px;
+      transform: rotate(-45deg);
+      background-color: $white;
+    }
+}

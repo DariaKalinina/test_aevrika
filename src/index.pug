@@ -1,6 +1,8 @@
 extends templates/template.pug
 include block/header/header.pug
 include block/about/about.pug
+include block/menu/menu.pug
+include block/content/content.pug
 
 block content
   //внешний контайнер
@@ -8,6 +10,8 @@ block content
     section.hero
       +about
       +header
+      +menu
+      +content
             
 block scripts
   script(src='js/script.min.js')

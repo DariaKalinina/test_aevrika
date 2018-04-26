@@ -5,28 +5,32 @@ mixin header
       ul.header__list
         li.header__item
           .header__item-right
-            .header__logo.up
-              img.header__img(src="img/block/header/logo.png" alt="logo")
+            .header__item-up
+              a.header__logo(href="#")
+                img.header__img(src="img/block/header/logo.png" alt="logo")
             .header__tagline.down Ваш заказ уже сегодня 
             
         li.header__item
-          .header__item-left.up
+          .header__item-left
           .header__item-right
-            .header__text.header__text--bold +7 (495) 241-96-37
-            .header__text Пн-Сб 10:00—19:00   Вс — выходной
-            a.header__text.header__text--link.down 7292554@mail.ru
+            .header__item-up
+              .header__text.header__text--bold +7 (495) 241-96-37
+              .header__text Пн-Сб 10:00—19:00   Вс — выходной
+            a.header__text.header__text--link.down(href="#") 7292554@mail.ru
           
         li.header__item
-          .header__item-left.up
+          .header__item-left
           .header__item-right
-            .header__text Москва, м. Дубровка
-            .header__text ул. Шарикоподшипниковская, д. 13
-            a.header__text.header__text--link.down Как нас найти
+            .header__item-up
+              .header__text Москва, м. Дубровка
+              .header__text ул. Шарикоподшипниковская, д. 13
+            a.header__text.header__text--link.down(href="#") Как нас найти
             
         li.header__item
           .header__item-right
-            a.header__order.up срочный заказ
-            a.header__text.header__text--link.down Задать вопрос
+            .header__item-up
+              a.header__order.up(href="#") срочный заказ
+            a.header__text.header__text--link.down(href="#") Задать вопрос
         
       
               
